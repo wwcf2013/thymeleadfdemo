@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+这个是index页面！！！<br>
+<h1 th:if="${result == 'r'}">今天也要加油</h1><br>
+<p th:switch="${menu}">
+    <span th:case="admin">加油加油加油</span>
+    <span th:case="manager">常山赵子龙</span>
+</p>
+</body>
+</html>
