@@ -16,6 +16,7 @@ public class MyController {
         String message="hello thymeleaf";
         model.addAttribute("message",message);
         System.out.println("分支1");
+        System.out.println("修改完成可以合并");
         return "index";
     }
     @RequestMapping("/getUser")
